@@ -41,22 +41,3 @@ h1, h2 {
 li {
 	list-style: none;
 }
-
-#splashscreen h1 {
-	margin-top: 120px;
-}
-
-.enter_link{
-	background-color:  #f2dd90;
-	border: 2px solid black;
-	border-radius: 25px;
-	width: 300px;
-	text-decoration: none;
-	float: left;
-	text-align: center;
-	font-family: 'Roboto Slab', serif;
-	font-size: 18px;
-	color: black;
-	margin-left: 450px;
-
-}

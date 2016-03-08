@@ -1,7 +1,3 @@
-$('.enter_link').click(function () {
-    $(this).parent('#splashscreen').fadeOut(500);
-});
-
 function handleClick()
   {         
 var amountCorrect = 0;          
