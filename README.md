@@ -2,11 +2,17 @@
 ##Trivia Game with Timer
 
 ###Objectives
-* Create a Trivia game
+* Create a trivia game
 * Use HTML and CSS to render the game on the web page
-* Use JavaScript for the logic of the game and jQuery to manipulate the html of the game
+* Use JavaScript for the logic of the game and jQuery to manipulate the HTML of the game
 
 ###Technologies Used
+* HTML
+* CSS
+* Javascript
+* jQuery
+* Time Logic
+* Game Design
 
 ###Game Logic
 
