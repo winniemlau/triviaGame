@@ -11,7 +11,7 @@
 * CSS
 * Javascript
 * jQuery
-* Time Logic
+* Timing Events
 * Game Design
 
 ###Game Logic
