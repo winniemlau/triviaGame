@@ -1,6 +1,8 @@
 #Week 5 Assignment
 ##Trivia Game with Timer
 
+![alt tag](https://github.com/winniemlau/triviagame/blob/master/assets/images/screenshot.jpg)
+
 ###Objectives
 * Create a trivia game
 * Use HTML and CSS to render the game on the web page
@@ -23,4 +25,4 @@
 
 ###Deployed App
 
-Heroku:
+Heroku: http://nutritionquiz.herokuapp.com
