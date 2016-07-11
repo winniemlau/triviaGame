@@ -1,75 +1,22 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Trivia Quiz!</title>
-	<link type="text/css" rel="stylesheet" href="assets/css/style.css" />
-	<link href='https://fonts.googleapis.com/css?family=Amatic+SC' rel='stylesheet' type='text/css'>
-	<link href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
-
+  <title>Nutrition Pop Quiz</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+  <link href='https://fonts.googleapis.com/css?family=Yellowtail' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
 </head>
-
-
-
 <body>
-
-	<div id="container">
-
-		<h1>Fun Food Trivia Game</h1>
-		<h2>Time Remaining:</h2>
-		<div id="show-number"></div>
-		<form name="quiz" method="post" name="buttons" id="quiz" onsubmit="return false">
-
-		<li><div class="question">1. What breakfast cereal was Sonny the Cuckoo Bird "cuckoo for"?</div></li>
-		<input id="answer" type="radio" name="group1" value="wrong"> Cheerios<br>
-		<input id="answer" type="radio" name="group1" value="correct"> Cocoa Puffs<br>
-		<input id="answer" type="radio" name="group1" value="wrong"> Fruit Loops<hr>
-
-		<li><div class="question">2. How many flowers are in the design stamped on each side of an Oreo cookie?</div></li>
-		<input id="answer" type="radio" name="group2" value="correct">Twelve<br>
-		<input id="answer" type="radio" name="group2" value="wrong">Fourteen<br>
-		<input id="answer" type="radio" name="group2" value="wrong">Sixteen<hr>
-
-		<li><div class="question">3. What European nation consumes more spicy Mexican food than any other?</div></li>
-		<input id="answer" type="radio" name="group3" value="wrong">Italy<br>
-		<input id="answer" type="radio" name="group3" value="wrong">Spain<br>
-		<input id="answer" type="radio" name="group3" value="correct" >Norway<hr>
-
-
-		<li><div class="question">4. What was margarine called when it was first marketed in England?</div></li>
-		<input id="answer" type="radio" name="group4" value="wrong">Butter<br>
-		<input id="answer" type="radio" name="group4" value="correct">Butterine<br>
-		<input id="answer" type="radio" name="group4" value="wrong" >Ghee<hr>
-
-
-		<li><div class="question">5. What was the name of Cheerios when it was first marketed 50 years ago?</div></li>
-		<input id="answer" type="radio" name="group5" value="correct">Cherrioats<br>
-		<input id="answer" type="radio" name="group5" value="wrong">Weetabix<br>
-		<input id="answer" type="radio" name="group5" value="wrong" >Cherry O's<hr>
-
-		<li><div class="question">6. What animals milk is used to make authentic Italian mozzarella cheese?</div></li>
-		<input id="answer" type="radio" name="group6" value="correct">Water Buffalo<br>
-		<input id="answer" type="radio" name="group6" value="wrong">Cow<br>
-		<input id="answer" type="radio" name="group6" value="wrong" >Goat<hr>
-
-		<li><div class="question">7. What nation produces two thirds of the world's vanilla?</div></li>
-		<input id="answer" type="radio" name="group7" value="wrong">Tanzania<br>
-		<input id="answer" type="radio" name="group7" value="wrong">Kenya<br>
-		<input id="answer" type="radio" name="group7" value="correct" >Madagascar<hr>
-
-		<li><div class="question">8. What is the literal meaning of the Italian word linguine?</div></li>
-		<input id="answer" type="radio" name="group8" value="wrong">Loops<br>
-		<input id="answer" type="radio" name="group8" value="wrong">Long hair<br>
-		<input id="answer" type="radio" name="group8" value="correct" >Little tongues<hr>
-
-		<button class="submit" onclick="return handleClick();" type="submit">Submit</button>
-
-
-		</form>
-
-	<div id="correct"></div>
-
-	</div>
-	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-	<script type="text/javascript" src="assets/javascript/quiz.js"></script>
+  <div id="wrapper">
+    <h1>Nutrition Pop Quiz</h1>
+    <div id="subwrapper">
+      <div id="quiz-area">
+        <button id="start">Start</button>
+      </div>
+    </div>
+  </div>
+  <script type="text/javascript" src="assets/javascript/app.js"></script>
 </body>
 </html>

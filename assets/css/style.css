@@ -1,43 +1,85 @@
-#splashscreen {
-    position:absolute;
-    top:0;
-    left:0;
-    bottom:0;
-    width:100%;
-   	background: url("../images/foodbg.jpg");
-    height: 100%;
+html, body{
+  height:100%;
 }
 
-body {
-	background: url("../images/foodbg.jpg");
-    background-repeat: repeat-x  repeat-y;
-	font-family: 'Roboto Slab', serif;
+body{
+  background-image: url(../images/veggies.jpg);
+  background-size: cover;
+  /*background-position: bottom;
+  background-repeat: no-repeat;*/
+  overflow: hidden;
+  text-align: center;
+  color: white;
+
 }
 
-#container {
-	width: 800px;
-	height: 100%;
-	margin: auto;
-	padding: 0px 25px 40px 10px;
-	background-color: #f2dd90;
-	border: 2px solid;
-	border-radius: 25px;
+#wrapper{
+  margin-left: 375px;
+  width:960px;
+  height: 95%;
+  box-sizing: border-box;
 }
 
-h1 {
-	font-weight: bold;
-	font-size: 45pt;
+#subwrapper{
+  position: relative;
+  top:15%;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+}
+button{
+  display:block;
+  width:50%;
+  height:20%;
+  margin: 0 auto;
+  border:none;
+  cursor: pointer;
+  background:transparent;
+  font-size: 42px;;
+}
+
+img{
+  height:200px;
+}
+
+h1{
+  font-family: 'Yellowtail', cursive;
+  font-size: 5.5em;
+  font-weight: bold;
+  color: white;
+  padding-top: 20px;
+  color:  white;
+
 }
 
 h2{
-	font-size: 24pt;
+  font-size: 35px;
+  margin-bottom: 25px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 2em;
+  color: white;
 }
 
-h1, h2 {
-	text-align: center;
-	font-family: 'Amatic SC', cursive;
+h3{
+  font-size: 25px;
+  margin-bottom: 10px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 2em;
+  color: white;
 }
 
-li {
-	list-style: none;
+#start{
+  margin-top: -55px;
+  border:2px solid #bebab7 ;
+  color: #777370;
+  font-size: 1.5em;
+  background: white;
+  width: 150px;
+  border-radius: 25px;
+    padding: 5px;
+}
+
+
+button:hover {
+  border:2px solid white;
+  border-radius: 25px;
 }
